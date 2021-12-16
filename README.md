@@ -68,10 +68,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## Instalación del proyecto
 
 1. Debera hacer el git clone de manera local
-2. Ejecutar el comandos tales como:
+2. Una vez en el proyecto ejecutar el comandos tales como:
 - composer i
 - npm i
 
 3. En el .env se encuentra una variable "GOOGLE_API_KEY" el cual debe poner la llave suministrada por google para hacer el consumo de la API de maps
 4. Configurar las variables en el .env de la base de datos
 5. Debera correr las migraciones junto con los seeder, de la siguiente manera: php artisan migrate --seed
+
+- API de Weather: [Weather Unloked](http://www.weatherunlocked.com/)
